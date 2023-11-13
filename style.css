@@ -1,0 +1,206 @@
+body {
+  font-family: 'Eplilogue';
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #FF9B50;
+  text-align: center;
+
+}
+
+nav {
+  padding: 35px 127px 23px;
+}
+
+.contenedor_nav {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.contenedor_nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.contenedor_nav li {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.contenedor_nav a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.contenedor_nav input {
+  border-radius: 5px;
+  background-color: #D9D9D9;
+  border: none;
+}
+
+body {
+  font-family: 'Epilogue';
+}
+
+.contenedor_presentacion {
+  background: url("img/bosque-corgi.jpg");
+  background-size: cover;
+  height: 1150px;
+}
+
+.contenedor_presentacion h1 {
+  font-size: 61px;
+  color: #F5F5F5;
+  font-family: 'Epilogue';
+  letter-spacing: 28px;
+  padding-left: 120px;
+  padding-top: 30px;
+}
+
+.contenedor_presentacion h1 span {
+  font-size: 150px;
+  letter-spacing: -0.5%;
+
+}
+
+.contenedor_presentacion h2 {
+  color: #F5F5F5;
+  text-transform: uppercase;
+  font-family: 'Epilogue';
+  padding-left: 120px;
+  padding-top: 30px;
+}
+
+.contenedor_presentacion p {
+  color: #F5F5F5;
+  width: 80%;
+  height: 20%;
+  line-height: 172.8%;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  background: #FF9B50;
+  margin-left: 300px;
+  margin-top: 750px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.modelos {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 70px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.modelos img {
+  max-width: 80%;
+  height: 500px;
+  width: 550px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.modelos h2 {
+  color: #635F58;
+  text-transform: uppercase;
+}
+
+.modelos button {
+  background-color: #E25E3E;
+  color: beige;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-weight: 700;
+  font-family: 'Epilogue';
+  height: 38px;
+  border: none;
+  width: 100px;
+  cursor: pointer;
+}
+
+
+.video-presentacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+  width: 100%;
+}
+.parrafo2 {
+  font-family: 'Epilogue';
+  font-weight: bold;
+  background-color: #FF9B50;
+  color: #F5F5F5;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+}
+
+footer {
+  background-color: #FF9B50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.contacto ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contacto li {
+  margin-bottom: 10px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+}
+
+.redes img {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-icons a {
+  text-decoration: none;
+  color: white;
+}
